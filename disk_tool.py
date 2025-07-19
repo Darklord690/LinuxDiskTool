@@ -645,6 +645,16 @@ def benchmark_disk_speed():
 
     print("\nBenchmarking complete.")
 
+def show_developer_info():
+    """Displays information about the developer."""
+    print("\n--- Developer Information ---")
+    print("Tool Name: Storage Device Management Tool (Linux CLI)")
+    print("Version: 1.0")
+    print("Developed by: [Your Name/Organization Here]") # Replace with actual developer info
+    print("Contact: [Your Email/Website Here]")          # Replace with actual contact info
+    print("Purpose: A command-line utility for managing storage devices on Linux systems.")
+    print("Disclaimer: Use with caution. Incorrect operations can lead to data loss.")
+    print("-----------------------------\n")
 
 # --- Main Menu ---
 
@@ -670,10 +680,11 @@ def main_menu():
         print("14. View S.M.A.R.T. Errors Only")
         print("15. Benchmark Disk Read/Write Speed (dd)")
         print("-------------------------------------------------")
+        print("00. Developer Info") # New option
         print("0. Exit")
         print("-------------------------------------------------")
 
-        choice = input("Enter your choice (0-15): ").strip()
+        choice = input("Enter your choice (0-15, 00 for info): ").strip()
 
         if choice == '1':
             list_storage_devices()
@@ -705,11 +716,15 @@ def main_menu():
             view_smart_errors()
         elif choice == '15':
             benchmark_disk_speed()
+        elif choice == '00': # Handle the new '00' choice
+            show_developer_info()
         elif choice == '0':
             print("Exiting tool. Goodbye!")
             sys.exit(0)
         else:
-            print("Invalid choice. Please enter a number between 0 and 15.")
+            print("Name:Sowmitro Halder Badhon ")
+            print("https://wa.me/+8801921964044")
+            print("Denote $10 Buy a coffee  Bkash/Nagod  01921964044 ")
 
 if __name__ == "__main__":
     if os.geteuid() != 0:
