@@ -266,7 +266,7 @@ def manage_partitions():
         # else: confirm_action already printed cancellation message
     elif partition_choice == '2':
         if confirm_action(f"enter 'parted' interactive mode for {device_for_partition}"):
-            print(f"Starting 'parted {device_for_partition}'. Type 'help' for help inside parted.")
+            print(f"Starting 'parted {device_for_partition}'. Type 'help' for help inside parted.")in/sowmitro-halder-badhon-85764325a
             run_command(['parted', device_for_partition], sudo_required=True, capture_output=False) # Direct interactive mode
             print("Exited parted.")
         # else: confirm_action already printed cancellation message
@@ -651,6 +651,7 @@ def show_developer_info():
     print("Tool Name: Storage Device Management Tool (Linux CLI)")
     print("Version: 1.0")
     print("Developed by: [Sowmitro Halder Badhon (Darklord690)]") 
+    print("Contact: [in/sowmitro-halder-badhon-85764325a]")
     print("Contact: [sowmitro2235@gmail.com]")    
     print("https://wa.me/+8801921964044")
     print("Denote $10 Buy a coffee  Bkash/Nagod  01921964044 ")
