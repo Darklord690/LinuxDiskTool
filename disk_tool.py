@@ -650,8 +650,10 @@ def show_developer_info():
     print("\n--- Developer Information ---")
     print("Tool Name: Storage Device Management Tool (Linux CLI)")
     print("Version: 1.0")
-    print("Developed by: [Your Name/Organization Here]") # Replace with actual developer info
-    print("Contact: [Your Email/Website Here]")          # Replace with actual contact info
+    print("Developed by: [Sowmitro Halder Badhon (Darklord690)]") 
+    print("Contact: [sowmitro2235@gmail.com]")    
+    print("https://wa.me/+8801921964044")
+    print("Denote $10 Buy a coffee  Bkash/Nagod  01921964044 ")
     print("Purpose: A command-line utility for managing storage devices on Linux systems.")
     print("Disclaimer: Use with caution. Incorrect operations can lead to data loss.")
     print("-----------------------------\n")
