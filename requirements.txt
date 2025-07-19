@@ -1,0 +1,4 @@
+# No specific Python libraries required beyond standard library for current features.
+# Add any future dependencies here, e.g.,
+# click
+# psutil
